@@ -407,7 +407,7 @@
  *   998 : Dummy Table that ALWAYS reads 25°C or the temperature defined below.
  *   999 : Dummy Table that ALWAYS reads 100°C or the temperature defined below.
  */
-#define TEMP_SENSOR_0 5
+#define TEMP_SENSOR_0 11
 #define TEMP_SENSOR_1 0
 #define TEMP_SENSOR_2 0
 #define TEMP_SENSOR_3 0
@@ -485,9 +485,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // i3 Mega stock v5 hotend, 40W heater cartridge (3.6Ω @ 22°C)
-  #define  DEFAULT_Kp 15.19
-  #define  DEFAULT_Ki 0.86
-  #define  DEFAULT_Kd 67.15
+  #define  DEFAULT_Kp 16.30
+  #define  DEFAULT_Ki 1.32
+  #define  DEFAULT_Kd 50.40
 
   // Ultimaker
   // #define DEFAULT_Kp 22.2
@@ -1097,7 +1097,7 @@
 // @section machine
 
 // The size of the print bed
-#define X_BED_SIZE 215
+#define X_BED_SIZE 199
 #define Y_BED_SIZE 215
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
